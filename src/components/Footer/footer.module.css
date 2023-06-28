@@ -1,0 +1,43 @@
+
+
+.search{
+width: 100%;
+height: 5vh;
+position: relative;
+}
+.searchInput2{
+
+    width: 60%;
+    height: 8vh;
+    border: none;
+    border-radius: -10%;
+    background: #4f4f92;
+    border-radius: 43px;
+    padding-left: 31px;
+    color: white;
+
+}
+.searchInput2::placeholder{
+    color: white;
+}
+.arrow{
+    position: absolute;
+    width: 6%;
+    height: 5vh;
+    left: 50%;
+    top: 30%;
+  }
+
+  @media screen and (max-width: 991px){
+    .arrow{
+        position: absolute;
+        width: 31px;
+        height: 3vh;
+        left: 84%;
+        top: 80%;
+      }
+  .searchInput2{
+    width: 100%;
+    height: 5vh;
+  }
+  }

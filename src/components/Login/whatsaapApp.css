@@ -1,0 +1,13 @@
+.whatsapp_widget_wrapper {
+  bottom: 80px !important;
+  align-items: flex-end !important;
+  right: 15px !important;
+}
+
+@media screen and (max-width: 999px) {
+  .whatsapp_widget_wrapper {
+    bottom: 60px !important;
+    align-items: flex-end !important;
+    right: 15px !important;
+  }
+}

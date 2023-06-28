@@ -1,0 +1,220 @@
+.acocunt_page_container__1 {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.acocunt_page_container_left__2 {
+  height: 100%;
+  width: 25%;
+  border-right: 0.7px solid rgba(35, 35, 35, 0.3);
+  background: #ffffff;
+  border-radius: 0px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.acocunt_page_container_right__3 {
+  height: 100%;
+  width: 45%;
+  background: #ffffff;
+  border-radius: 12px;
+  border-radius: 0px;
+}
+
+.account_conotainer_left____4 {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.account_conotainer_left____4 a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+
+  color: #232323;
+}
+
+.account_conotainer_left____4 a:hover {
+  color: var(--theme-color);
+}
+
+.account_conotainer_left____4 a:active {
+  box-shadow: none !important;
+}
+
+.account_picture_container {
+  margin: auto;
+  padding: auto;
+  border-radius: 50%;
+  /* background-color: red; */
+  height: 249px;
+  width: 249px;
+  background-size: cover;
+}
+
+.account_picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.account_picture_container___222 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 20%;
+  height: 22rem;
+}
+
+.account_btn_full_1___ {
+  width: 59%;
+  margin: 5% 0;
+  color: #fff;
+  padding: 3% 5% 3% 5%;
+  border: none;
+  outline: none !important;
+  background-color: #232323;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+}
+
+.account_btn_full_1___:hover {
+  background-color: #fff;
+  color: #232323;
+  border: 1px solid #232323;
+  transition: 0.9s all;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.account_conotainer_left____3 h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: #232323;
+}
+
+.account_conotainer_left____3 {
+  margin-bottom: 20%;
+}
+
+@media (max-width: 480px) {
+  .acocunt_page_container__1 {
+    width: 100%;
+    height: 80vh;
+    display: inline;
+  }
+
+  .acocunt_page_container_left__2 {
+    display: none;
+  }
+
+  .navBar_Container {
+    display: none;
+  }
+
+  .account_picture_container___222 {
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    height: auto;
+  }
+
+  .account_picture_container {
+    height: 146px;
+    width: 146px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .account_btn_full_1___ {
+    display: none;
+  }
+
+  .acocunt_page_container_right__3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+  }
+}
+
+@media (min-width: 590px) and (max-width: 870px) {
+  /* .acocunt_page_container__1{
+        width: 100%;
+        height: 80vh;
+      } */
+  .acocunt_page_container__1 {
+    width: 100%;
+    height: 100vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .acocunt_page_container_left__2 {
+    height: 80vh;
+    width: 20%;
+  }
+
+  .navBar_Container {
+    display: flex;
+  }
+
+  .account_picture_container___222 {
+    margin: auto;
+    padding: auto;
+    top: 0;
+    height: auto;
+  }
+
+  .account_picture_container {
+    height: 249px;
+    width: 249px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .account_btn_full_1___ {
+    display: flex;
+  }
+
+  .acocunt_page_container_right__3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+  }
+}

@@ -1,0 +1,111 @@
+.Order_container {
+  width: 100%;
+  /* padding: 3rem 1rem; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+  align-items: center;
+  color: var(--color-main);
+  text-transform: capitalize !important;
+}
+.Order_text{
+    height: 10rem;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+flex-direction: column;
+align-items:center;
+font-size: 0.8rem;
+font-weight: 500;
+}
+.span_tag_main{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Order_img{
+    width: 100%;
+    height: 22rem;
+}
+.Order-banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.Order_buttons{
+    height: auto;
+    padding: 0.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Order_list{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Order_list_links{
+    width: 100%;
+    display: flex;
+   
+    padding: 0 0.4rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Order_name{
+    font-size: 1rem;
+}
+.Order_button_one{
+    background: #2c1250;
+    border: 1px solid var(--color-themeS);
+    border-radius: 6px;
+    width: 5rem;
+    padding: 0.6rem;
+    height: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color-main);
+}
+.Order_buttons_style{
+ width: 12rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+@media (max-width: 555px) {
+    .span_tag_main {
+        font-size: 1rem;
+    }
+    .span_tag_main {
+        padding: 0.6rem;
+    }
+    .Order_img{
+        width: 90%;
+        height: 20rem;
+    }
+    .Order_buttons {
+        display: flex;
+        justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    }
+    .Order_list_links{
+        justify-content: space-between;
+    
+    }
+    .Order_name:nth-child(2){
+        display: none;
+    }
+}

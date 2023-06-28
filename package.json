@@ -1,0 +1,93 @@
+{
+  "name": "code-hub-react-website-by-shubham",
+  "version": "1.2.1",
+  "dependencies": {
+    "@egjs/flicking-plugins": "^4.4.0",
+    "@egjs/react-flicking": "^4.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.125",
+    "@mui/material": "^5.11.16",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@react-oauth/google": "^0.7.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "14.4.1",
+    "axios": "^1.2.2",
+    "bootstrap": "4.5.3",
+    "chart.js": "2.9.4",
+    "classnames": "2.3.1",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "moment": "2.29.4",
+    "mui-daterange-picker": "^1.0.5",
+    "nouislider": "14.6.3",
+    "react": ">=16.8.0",
+    "react-alice-carousel": "^2.7.0",
+    "react-animated-typer": "^1.0.0",
+    "react-chartjs-2": "2.11.1",
+    "react-datetime": "3.1.1",
+    "react-dom": ">=16.8.0",
+    "react-github-login": "^1.0.3",
+    "react-github-login-button": "^1.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.7.1",
+    "react-orbits": "^1.0.5",
+    "react-owl-carousel": "^2.3.3",
+    "react-razorpay": "^1.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.6.2",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-social-login-buttons": "^3.6.1",
+    "react-toastify": "^9.1.1",
+    "react-type-animation": "^2.1.2",
+    "react-whatsapp-chat-widget": "^1.1.6",
+    "react-youtube": "^10.1.0",
+    "react18-input-otp": "^1.1.2",
+    "reactstrap": "8.7.1",
+    "sass": "1.54.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^9.2.2",
+    "web-vitals": "2.1.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "optionalDependencies": {
+    "jquery": "3.6.0",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
+    "minify-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --style compressed"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

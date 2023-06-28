@@ -1,0 +1,216 @@
+.CheckOutPage_main_container {
+  width: 100%;
+  height: 100%;
+  background: var(--color-theme);
+  color: var(--color-main);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.CheckOutPage_name_container {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-theme1S);
+  padding: 0.6rem;
+}
+.CheckOutPage_name_spanTag {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.CheckOutPage_name_container_1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: var(--color-theme1S);
+  padding: 0.6rem;
+  margin: 0.6rem;
+  font-size: 1rem;
+}
+
+.CheckOutPage_container___1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  align-items: flex-start;
+}
+
+.CheckOutPage_container___Login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-theme);
+  border: 0.5px solid var(--color-Border);
+  padding: 1.5rem;
+  color: var(--color-main) !important;
+  border-radius: 12px;
+  box-shadow: rgba(0, 12, 22, 0.48) 6px 2px 16px 0px;
+  /* rgba(132, 20, 197, 0.8) -6px -2px 16px 0px; */
+}
+.CheckOutPage_left_cards {
+  width: 48%;
+  height: 100%;
+  border: 0.5px solid var(--color-Border);
+  border: 0.5px solid var(--color-Border);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 12, 22, 0.48) 6px 2px 16px 0px,
+    rgba(132, 20, 197, 0.8) -6px -2px 16px 0px;
+}
+.CheckOutPage_container___checkout {
+  width: 48%;
+  height: 100%;
+
+  border: 0.5px solid var(--color-Border);
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 12, 22, 0.48) 6px 2px 16px 0px,
+    rgba(132, 20, 197, 0.8) -6px -2px 16px 0px;
+}
+.CheckOutPage_name_container_112 {
+  width: 100%;
+  text-transform: uppercase;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-theme1S);
+  padding: 0 0.6rem;
+  font-size: 1rem;
+}
+.CheckOutPage_name_container_end1 {
+  width: 100%;
+  height: 2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-theme1S);
+  margin: 0.6rem;
+  padding: 0 0.6rem;
+  font-size: 0.8rem;
+}
+.CheckOutPage_name_container_end {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.6rem;
+  font-size: 1rem;
+}
+.CheckOutPage_spanTag___1 {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #c2c2c2;
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+}
+.CheckOutPage_descriptions__1 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0.6rem;
+  letter-spacing: 0.6px;
+
+  padding: 0 0.6rem;
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.CheckOutPage_btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+}
+.btn_1 {
+  background: #2c1250;
+  border: 1px solid var(--color-themeS);
+  border-radius: 6px;
+  width: 8rem;
+  height: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--color-main);
+}
+@media (max-width: 480px) {
+  .CheckOutPage_main_container {
+    height: auto;
+  }
+  .CheckOutPage_container___1 {
+    flex-direction: column;
+    height: 100%;
+  }
+  .CheckOutPage_container___Login {
+    width: 100%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 12, 22, 0.48) 0px 14px 28px,
+      rgba(132, 20, 197, 0.8) 0px 10px 10px;
+    height: 40rem !important;
+    justify-content: center;
+  }
+  .CheckOutPage_container___checkout {
+    margin-top: 10%;
+    width: 100%;
+    height: 44rem;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 12, 22, 0.48) 0px 14px 28px,
+      rgba(132, 20, 197, 0.8) 0px 10px 10px;
+  }
+  .CheckOutPage_name_container_end {
+    font-size: 0.8rem;
+  }
+  .CheckOutPage_name_container_112 {
+    font-size: 0.8rem;
+  }
+}
+
+.inputStyle {
+  margin: 10px 7px;
+  width: 3rem !important;
+  height: 3rem;
+  border: 1px solid;
+  /* border-radius: 5px; */
+  font-size: 13px;
+  /* text-align: center; */
+  outline: #763cac;
+  color: #f3f3f3;
+  background-color: transparent;
+  border-color: #763cac;
+  border-radius: 0.4285rem;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+@media (max-width: 870px) {
+  .inputStyle {
+    /* margin-right: 8px; */
+    width: 30px;
+    height: 2rem;
+  }
+  .CheckOutPage_left_cards {
+    width: 100%;
+  }
+}

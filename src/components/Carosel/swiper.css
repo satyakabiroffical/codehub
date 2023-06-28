@@ -1,0 +1,32 @@
+/* .slick-slide {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.slick-list {
+  margin-left: -15px;
+  margin-right: -15px;
+  pointer-events: none;
+} */
+.slick-initialized .slick-slide {
+  width: auto !important;
+  margin: 0.2%;
+}
+.slick-next {
+  /* right: -25px !important; */
+}
+.slick-prev,
+.slick-next {
+  width: 28px !important;
+  height: 28px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 31px;
+  color: white;
+
+  border-radius: 0%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

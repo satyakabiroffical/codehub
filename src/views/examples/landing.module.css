@@ -1,0 +1,138 @@
+.BannerText,
+.BannerText2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 86px;
+}
+.BannerText2 {
+  background: #ccc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration-color: transparent;
+  transition: all 2s linear;
+  position: relative;
+}
+.BannerText2::before {
+  content: "frontend";
+  background: linear-gradient(270deg, #fe8888 27.16%, #8066ff 97.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration-color: transparent;
+  overflow: hidden;
+  transition: width 2s linear;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+}
+.BannerText2:hover::before {
+  width: 100%;
+}
+/* .BannerText2{
+    background: linear-gradient(270deg, #FE8888 27.16%, #8066FF 97.86%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-decoration-color : transparent;
+
+}  */
+.shadow {
+  position: absolute;
+  width: 385px;
+  height: 431px;
+  left: -36px;
+  top: 113px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+.heading {
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.span {
+  font-size: 1.4em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LinearCard {
+  position: absolute;
+  width: 50%;
+  height: 20vh;
+  height: 100vh;
+  z-index: -1;
+  left: 378px;
+  top: -12px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+
+.handleScrollByshubham::-webkit-scrollbar {
+  cursor: pointer;
+}
+.handleScrollByshubham::-webkit-scrollbar-thumb {
+  display: none;
+}
+.handleScrollByshubham::-webkit-scrollbar-track {
+  display: none;
+}
+/* .handleScrollByshubham::-webkit-scrollbar-button {
+  width: 2rem;
+  height: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  cursor: pointer !important;
+  background-position: center !important;
+  background-color: #fa5d29;
+} */
+.handleScrollByshubham::-webkit-scrollbar-button:horizontal:decrement {
+  background: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+
+  background-position: center;
+  height: 9vh;
+  background-size: 3.5vh;
+  width: 3rem;
+  background-repeat: no-repeat;
+
+  background-image: url(../../assets/img/arrowLeft1.png) !important;
+}
+.handleScrollByshubham::-webkit-scrollbar-button:horizontal:increment {
+  background: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+
+  background-position: center;
+  height: 9vh;
+  background-size: 3.5vh;
+  width: 3rem;
+  background-repeat: no-repeat;
+
+  background-image: url(../../assets/img/arrowright1.png) !important;
+}
+@media screen and (max-width: 999px) {
+  .LinearCard {
+    display: none;
+  }
+  .gola_container {
+    display: none !important;
+  }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Lexend Deca', sans-serif; ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+:root {
+
+  --color-main: #fff;
+  --color-seco: #FA5D29;
+  --color-prim: #232323;
+  --color-theme: #11071F;
+  --color-themeS: #763CAC;
+  --color-theme1S: #140927;
+  --color-theme2: #1f2251;
+  --color-theme3: #e14eca;
+  --color-Border: #2b2b2b;
+}

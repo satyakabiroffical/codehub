@@ -1,0 +1,40 @@
+
+ .inputStyle {
+  
+  margin: 30px 7px;
+  width: 3rem !important;
+  height: 3rem;
+  border: 1px solid;
+  /* border-radius: 5px; */
+  font-size: 13px;
+  /* text-align: center; */
+  outline: #2b3553;
+  color: #f3f3f3;
+  background-color: transparent;
+  border-color: #2b3553;
+  border-radius: 0.4285rem;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+
+ }
+ 
+ 
+  
+ @media (min-width: 360px) and (max-width: 870px) {
+     
+  .inputStyle {
+   
+    /* margin-right: 8px; */
+    width: 30px;
+    height: 2rem;
+  }
+ 
+ }
+  
+ @media (min-width: 280px) and (max-width: 360px) {
+     
+
+  .card-register{
+    height: 30rem !important;
+  }
+ }
